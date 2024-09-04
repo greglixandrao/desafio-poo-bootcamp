@@ -25,7 +25,7 @@ public class Course extends Content {
         return "Course{" +
                 "Título='" + getTitle() + '\'' +
                 ", Descrição=' " + getDescription() + '\'' +
-                "Carga Horária= " + workload +
+                ", Carga Horária= " + workload +
                 '}';
     }
 }

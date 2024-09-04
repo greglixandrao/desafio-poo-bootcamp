@@ -27,7 +27,7 @@ public class Mentoring extends Content{
         return "Mentoring{" +
                 "Título='" + getTitle() + '\'' +
                 ", Descrição=' " + getDescription() + '\'' +
-                "Data=" + date +
+                ", Data=" + date +
                 '}';
     }
 }
